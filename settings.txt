@@ -1,0 +1,15 @@
+1)install java 1.7 version
+2) goto My Computer ->Properties-> Advanced - >Environment Variable -> create new User variable
+Name : JAVA_HOME
+value : C:\Program Files\Java\jdk1.7.0_21
+
+3)again create new variable 
+Name : CATALINA_HOME
+Value : C:\tomcat8
+
+4) again in system variable 
+edit path variable and add this to the end of the variable
+;C:\Program Files\Java\jdk1.7.0_21\bin;
+
+5) apply all the settings and save it.
+6)create DSN with name bank; (Data Source Name)	
